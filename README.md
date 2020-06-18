@@ -9,8 +9,9 @@ The Fibonacci Sequence is such that each number is the sum of the previous two n
 In simple terms, a recursive function is a function that calls itself.
 
 ### Why is important:
-The common Fibonacci interview question may at first sight appear to be a simple question designed to test your basic understanding of 'recursion'.
-A major reason why this question appears so often in coding interviews is because answering it correctly demonstrates an understanding of a fundamental concept in programming: recursion. If we don’t use it, it is not VERY smart solution.
+The common Fibonacci logic and interview question may at first sight appear to be a simple question designed to test your basic understanding of 'recursion'. A major reason why this question appears so often in coding interviews is because answering it correctly demonstrates an understanding of a fundamental concept in programming: recursion. 
+
+> If we don’t use it, it is not VERY smart solution.
 
 ### How to think about this:
 By definition, the first two numbers in the Fibonacci sequence are either 1 and 1, or 0 and 1, depending on the chosen starting point of the sequence,
@@ -28,7 +29,8 @@ and each subsequent number is the sum of the previous two.
 function fibonacci(position){
    if(position < 3) return 1;
    else return fibonacci(position - 1) + fibonacci(position - 2) // stack overflow: you've to exceed the maximum call stack limit.
-}
+};
+fibonacci(15); // 610
 ```
 
 ### Further information:
