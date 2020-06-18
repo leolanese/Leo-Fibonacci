@@ -1,12 +1,9 @@
-# Fibonachi with recursion, destructoring and memoization:
-
+# Fibonachi 
+Resolving with recursion and memoization using ES5 and ES6+ features to find different ways of resolve the Number/Sequence.
 
 
 ### Fibonacchi:
-The Fibonacci Sequence is such that each number is the sum of the previous two numbers.
-
-### Recursion:
-In simple terms, a recursive function is a function that calls itself.
+The Fibonacci Sequence is simple: each number is the sum of the previous two numbers.
 
 ### Why is important:
 The common Fibonacci logic and interview question may at first sight appear to be a simple question designed to test your basic understanding of 'recursion'. A major reason why this question appears so often in coding interviews is because answering it correctly demonstrates an understanding of a fundamental concept in Dynamic Programming: recursion. 
@@ -16,13 +13,13 @@ The common Fibonacci logic and interview question may at first sight appear to b
 ### Dynamic Programming (DP):
 Dynamic programming and memoization works together and they are key features of funtional-programming. Most of the problems are solved with two components of Dynamic Programming:
 
-- Recursion – Solve the sub-problems recursively<br>
+### DP parts:
+- Recursion – Solve the sub-problems recursively. In simple terms, a recursive function is a function that calls itself.<br>
 - Memoization – Store the solution of these sub-problems so that we do not have to solve them again<br>
 
 ### Fibonacci sequence:
 By definition, the first two numbers in the Fibonacci sequence are either 1 and 1, or 0 and 1, depending on the chosen starting point of the sequence,
 and each subsequent number is the sum of the previous two.
-
 
 
 ### Fibonnacci Sequance:
