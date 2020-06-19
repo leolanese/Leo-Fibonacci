@@ -1,8 +1,8 @@
-# Fibonachi 
+# Fibonacci 
 Resolving with recursion and memoization using ES5 and ES6+ features to find different ways of resolve the Number/Sequence.
 
 
-### Fibonacchi:
+### Fibonacci:
 The Fibonacci Sequence is simple: each number is the sum of the previous two numbers.
 
 ### Why is important:
